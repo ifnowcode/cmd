@@ -1,6 +1,5 @@
 @echo off
 if /i (%echoval%) EQU (on) @echo on
-if not defined _commands set _commands=%~dp0
 setlocal
 
 @echo Searching Macros ...
